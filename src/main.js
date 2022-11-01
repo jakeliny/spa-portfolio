@@ -21,7 +21,7 @@ routes.forEach(route => {
 })
 
 window.addEventListener('load', async () => {
-  app.innerHTML = await render(location.pathname);
+  app.innerHTML = await render(window.location.pathname);
 });
 
 // When go back page render the correct page
