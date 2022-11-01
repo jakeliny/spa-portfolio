@@ -5,7 +5,7 @@ const app = document.getElementById('app');
 const routes = document.querySelectorAll('nav a');
 routes.forEach(route => {
 
-  createRoute(route.getAttribute('href'), route.dataset.page);
+  createRoute(route.getAttribute('href'));
 
 
   route.addEventListener('click', async (e) => {
