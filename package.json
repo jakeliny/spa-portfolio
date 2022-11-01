@@ -1,18 +1,19 @@
 {
   "name": "spa-portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
   "scripts": {
-    "start": "lite-server"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
-  "keywords": [],
-  "author": "Jakeliny Gracielly",
-  "license": "ISC",
   "devDependencies": {
+    "vite": "^3.2.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.26.0",
-    "lite-server": "^2.6.1"
+    "gh-pages": "^4.0.0"
   },
   "config": {
     "commitizen": {
