@@ -80,7 +80,8 @@ section.home img {
   margin: 2rem;
 }
 
-section.home h1 {
+section.home h1,
+section.portfolio h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -114,4 +115,35 @@ section.about ul li {
   list-style: none;
   font-size: 1.3rem;
   cursor: pointer;
+}
+
+section.portfolio ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+section.portfolio ul li {
+  list-style: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  border: .2rem solid #999;
+  border-radius: 1rem;
+
+  width: 20rem;
+  height: 10rem;
+  margin: 2rem 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.portfolio ul li a {
+  text-align: center;
 }

@@ -3,11 +3,11 @@ const home = `<section class="home">
 <h1>Jakeliny Gracielly</h1>
 <p>Full Stack Engineer +10y | Microsoft MVP | Developer Relations Engineer at Rocketseat </p>
 <ul>
-  <li><a href="https://github.com/jakeliny">GitHub</a></li>
-  <li><a href="">LinkedIn</a></li>
-  <li><a href="">Instagram</a></li>
-  <li><a href="">YouTube</a></li>
-  <li><a href="">Twitter</a></li>
+  <li><a target="_blank" href="https://github.com/jakeliny">GitHub</a></li>
+  <li><a target="_blank" href="">LinkedIn</a></li>
+  <li><a target="_blank" href="">Instagram</a></li>
+  <li><a target="_blank" href="">YouTube</a></li>
+  <li><a target="_blank" href="">Twitter</a></li>
 </ul>
 
 </section>`
@@ -28,20 +28,34 @@ const about = `<section class="about">
 </p>
 
 <ul>
-  <li><a href="https://github.com/jakeliny">GitHub</a></li>
-  <li><a href="">LinkedIn</a></li>
-  <li><a href="">Instagram</a></li>
-  <li><a href="">YouTube</a></li>
-  <li><a href="">Twitter</a></li>
+  <li><a target="_blank" href="https://github.com/jakeliny">GitHub</a></li>
+  <li><a target="_blank" href="https://www.linkedin.com/in/jakelinygracielly/">LinkedIn</a></li>
+  <li><a target="_blank" href="https://www.instagram.com/jakeliny.gracielly/">Instagram</a></li>
+  <li><a target="_blank" href="https://www.youtube.com/@jakeliny">YouTube</a></li>
+  <li><a target="_blank" href="">Twitter</a></li>
 </ul>
 </section>`
 
 const portfolio = `<section class="portfolio">
-<p>Portfolio</p>
+<h1>Projects</h1>
+<ul>
+  <li><a target="_blank" href="https://github.com/jakeliny/21-dias-de-codigo-rocketseat">Repositorio 21 dias de código</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-2/">Hello World Customizado</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-3/">Botão animado</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-4/">Calculadora</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-5/">Página 404 customizada</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-6/">Card com efeito glassmorphism</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-7/">Contador pomodoro</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-8/">Toggle para tema claro e escuro</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-9/">Animaçãos de loading</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-10/">Lib particle.js</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-11/">Formulário de login</a></li>
+  <li><a target="_blank" href="https://jakeliny.github.io/21-dias-de-codigo-rocketseat/Desafio-12/">Galeria de imagens</a></li>
 </section>`
 
 const notfound = `<section class="notfound">
 <p>Not Found</p>
 </section>`
+
 
 export { home, about, portfolio, notfound }
